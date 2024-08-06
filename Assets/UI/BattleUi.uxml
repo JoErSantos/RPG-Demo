@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BattleUi.uss?fileID=7433441132597879392&amp;guid=b1bb5f4c8a234f94090b3cee7bba2e57&amp;type=3#BattleUi" />
+    <ui:VisualElement name="panel" class="panel hide" style="flex-grow: 1;">
+        <ui:VisualElement name="cardContainer" class="cardContainer" style="flex-grow: 1;">
+            <ui:VisualElement name="card" class="card" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Player" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameLabel" style="font-size: 50px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                <ui:VisualElement name="hpContainer" class="hpContainer" style="flex-grow: 1;">
+                    <ui:VisualElement name="hpBarContainer" class="hpBarContainer" style="flex-grow: 1;">
+                        <ui:VisualElement name="hpBar" class="hpBar" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:Label tabindex="-1" text="100 / 100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="hpLabel" style="font-size: 35px; color: rgb(255, 255, 255); padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;" />
+                </ui:VisualElement>
+                <ui:Button text="Attack" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AttackBtn" class="button" />
+                <ui:Button text="Defend" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DefendBtn" class="button" />
+                <ui:Button text="Run" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RunBtn" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
